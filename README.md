@@ -1,4 +1,4 @@
 kcm
 ===
 
-<head><h2>control the mouse through keyboard</h2></head>
+<head><h2>controlling the mouse through keyboard</h2></head>
