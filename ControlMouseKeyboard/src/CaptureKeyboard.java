@@ -1,4 +1,4 @@
-import java.awt.ComponentOrientation;
+/*import java.awt.ComponentOrientation;
 import java.awt.Dimension;
 import java.awt.Panel;
 import java.awt.event.KeyEvent;
@@ -27,7 +27,8 @@ public class CaptureKeyboard extends JFrame{
 		
 		//where pressedAction and releasedAction are javax.swing.Action objects
 		//where anAction is a javax.swing.Action*/
-	JButton b1;
+	
+	/*JButton b1;
 	
 	public CaptureKeyboard(){
 		Panel p = new Panel();
@@ -43,11 +44,11 @@ public class CaptureKeyboard extends JFrame{
 		p.add(b1);
 		
 		add(p);
-		setVisible(true);
+		setVisible(true);*/
 
 
 		
-	}
+	/*}
 	/*
 	public static void main(String args[]){
 		new CaptureKeyboard();
@@ -71,7 +72,7 @@ public class CaptureKeyboard extends JFrame{
         //Ctrl-n to go down one line
         key = KeyStroke.getKeyStroke(KeyEvent.VK_N, Event.CTRL_MASK);
         inputMap.put(key, DefaultEditorKit.downAction);
-    }*/
+    }*
 	
 	
-}
+}*/

@@ -44,12 +44,15 @@ public class KeyPress extends Frame {
 			
 			char i = ke.getKeyChar();
 			
-			if(i == 'w' && y > -1)
+			if( (i == 'w' || i == 'W') && y > 2){
 				r.mouseMove(x, y-=3);
-			else if(i == 's' && y < 769)
+			}else if( (i == 's' || i == 'S') && y < 766){
 				r.mouseMove(x, y+=3);
-			
-			//TODO the others directions
+			}else if( (i == 'a' || i == 'A') && x > 2){
+				r.mouseMove(x-=3, y);
+			}else if( (i == 'd' || i == 'D') && x < 1364){
+				r.mouseMove(x+=3, y);
+			}
 			
 		}
 		
